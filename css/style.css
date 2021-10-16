@@ -8,10 +8,31 @@
   --accent-color: #2196f3;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: "Roboto", sans-serif;
 }
 
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -46,7 +67,28 @@ body {
 .cursor {
   cursor: pointer;
 }
+
 /* -------------header-------------- */
+
+.menu-list {
+  display: flex;
+}
+
+.header-nav {
+  display: flex;
+}
+
+.header-container {
+  display: flex;
+}
+
+.header-conntacts {
+  display: flex;
+}
+
+.header-conntacts {
+  margin-left: auto;
+}
 
 .header-first {
   font-family: Raleway, sans-serif;
@@ -82,6 +124,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
+
 /* -------------hero-------------- */
 
 .hero-title {
