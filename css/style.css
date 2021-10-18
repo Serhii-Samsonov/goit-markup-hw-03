@@ -365,6 +365,9 @@ body {
 
 /* -------------btn-------------- */
 
+.footer-portfolio {
+  margin-top: 94px;
+}
 .btn-container {
   display: flex;
   align-items: center;
@@ -454,9 +457,5 @@ body {
   margin-right: 30px;
   margin-bottom: 30px;
   height: 404px;
-}
-
-.gallery-container {
-  padding-bottom: 94px;
 }
 /* -------------footer-------------- */
